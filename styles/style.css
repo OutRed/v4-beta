@@ -241,7 +241,7 @@
 
   /* homepage stuff */
   .content {
-    margin-top: 80px;
+    margin-top: 110px;
   }
 
   .title {
@@ -266,7 +266,7 @@
     font-size: 18px;
     font-weight: normal;
     color: #fff;
-    z-index: 2;
+    z-index: 9999;
     transition: .2s;
     text-decoration: none;
    }
@@ -339,6 +339,9 @@
     top: 0;
     left: 0;
     right: 0;
+    -webkit-box-shadow: 0px 0px 20px #000000;
+    -moz-box-shadow: 0px 0px 20px #000000;
+    box-shadow: 0px 0px 20px #000000;
   }
   
   
@@ -352,11 +355,9 @@
     color: rgba(255, 255, 255, 0.7);
   }
 
-  
-  .navigation-bar .active {
-    padding: 4px;
-    border-radius: 25px;
-    border: 5px solid rgb(0, 140, 255);
+
+  .navigation-bar .active p {
+    color: 5px solid rgb(0, 140, 255);
   }
 
   
@@ -369,6 +370,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 1;
   }  
 
   #phrase {
